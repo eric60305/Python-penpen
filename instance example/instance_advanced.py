@@ -13,7 +13,6 @@
 # result = p.distance(0, 0)  # 計算座標 3,4 和座標 0,0 之間的距離
 # print(result)
 
-
 # File 實體物件的設計 包裝檔案讀取的程式
 class File:
     def __init__(self, name):

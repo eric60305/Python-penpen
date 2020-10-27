@@ -11,7 +11,6 @@
 # p2 = Point(5,6)
 # print(p2.x, p2.y)
 
-
 # FullName 實體物件的設計 分開紀錄姓、名資料的全名
 class FullName:
     def __init__(self, first, last):
