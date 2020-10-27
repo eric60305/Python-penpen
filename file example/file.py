@@ -3,7 +3,7 @@
 # file.write("測試中文\n好棒棒")  #操作
 # file.close() #關閉
 
-with open("data.txt", mode="w", encoding="utf") as file:
+with open("file example\data.txt", mode="w", encoding="utf") as file:
     file.write("5\n3")
 
 # 讀取檔案
@@ -21,12 +21,12 @@ with open("data.txt", mode="w", encoding="utf") as file:
 # 使用JSON格式讀取、複寫檔案
 import json
 # 從檔案中讀取JSON資料 放入變數data裡面
-with open("config.json",mode="r") as file:
+with open("file example\config.json",mode="r") as file:
     data = json.load(file)
 print(data)  # data是一個字典資料
 data["name"] = "New Name"  # 修改變數中的資料
 # 把最新的資料複寫回檔案中
-with open("config.json",mode="w") as file:
+with open("file example\config.json",mode="w") as file:
     json.dump(data,file)
 
 #print("name", data["name"])
